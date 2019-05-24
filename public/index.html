@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 100px">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="keywords" content="宏博伟智, 跨境, 电商, 电子产品, 硬件研发">
+  <meta name="description" content="广东省宏博伟智技术有限公司成立于2015年，是一家专注于消费电子产品与智能硬件研发的创新型科技公司。公司总部位于广东深圳，在美国、加拿大、中国香港等地拥有全资子公司，并在美国、加拿大自主设立海外仓。公司以“创新掌握未来”为立司理念，以创新技术和产品研发为核心，持续加大在研发创新、市场开拓和品牌升级等战略方向的投入力度，致力于打造全球一流的科技电子品牌和服务全球用户的智能电子生活生态链。">
+  <meta name="author" content="chrece">
+  <link rel="icon" href="<%= BASE_URL %>favicon.png">
+  <title>substanbo</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but substanbo-en doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+</body>
+<script>
+(function () {
+  // document.body.style.fontSize = '14px'
+  // document.html.style.fontSize = '100%'
+  document.body.style.fontSize = '100%'
+  const setRem = () => {
+    let vw = document.documentElement.clientWidth
+    document.documentElement.style.fontSize = vw / 19.2 + 'px'
+  }
+  setRem()
+  window.onresize = setRem
+}())
+</script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+  var Ip=returnCitySN['cip']
+  var cityname=returnCitySN['cname']
+  localStorage.setItem('cid', returnCitySN['cid'])
+  localStorage.setItem('Ip', Ip)
+  localStorage.setItem('cname', cityname)
+</script>
+</html>

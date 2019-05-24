@@ -1,0 +1,51 @@
+{
+  "imgDataList": [{
+    "code": "1",
+    "name": "banner1@1x",
+    "img": "@/images/home/home-banner1@1x.jpg",
+    "textTop": ["HOME", "THEATER"],
+    "textImg": "",
+    "textNC": "Higher Image Resolution 1280*720P, True 720P,Support 1080p",
+    "textButton": "EXPLORE"
+  }, {
+    "code": "2",
+    "name": "banner2@1x",
+    "img": "require('@/images/home/home-banner2@1x.jpg')",
+    "textTop": ["DASH", "CAM"],
+    "textImg": "",
+    "textNC": "further your way",
+    "textButton": "EXPLORE"
+  }, {
+    "code": "3",
+    "name": "banner3@1x",
+    "img": "require('@/images/home/home-banner3@1x.jpg')",
+    "textTop": ["WATER FLOSSER"],
+    "textImg": "",
+    "textNC": "Portable",
+    "textButton": "EXPLORE"
+  }],
+  "contentData": [{
+      "code": "1",
+      "textLogo": "require('@/assets/images/bomaker-logo@1x.png')",
+      "img": "require('@/images/home/bomaker-banner@1x.jpg')",
+      "textButton": "EXPLORE",
+      "textTop": ["AWESOME", "AUDIO, ", "VIVID VISUAL"],
+      "textBottom": "Bomaker focuses on the field of audiovisual entertainment. It establishes a theater-level home entertainment ecosystem through high-quality audiovisual products. Bomaker strives to bring the finest audiovisual enjoyment and most authentic interactive experience to our customers on a global basis."
+    },
+    {
+      "code": "2",
+      "textLogo": "require('@/assets/images/ABOX-logo@1x.png')",
+      "img": "require('@/images/home/abox-banner@1x.jpg')",
+      "textButton": "EXPLORE",
+      "textTop": ["A BELIEF", "OF X-LIFE"],
+      "textBottom": "ABOX fouces on 4 product lines, namely Home Applicances, Personal Care, Home Therapy Electronics and Office Electronics, which almost cover your daliy life scenarios. ABOX is devoted to creating a more convenient, healthy, diverse and comfortable life experience for our customers across the world."
+    }, {
+      "code": "3",
+      "textLogo": "require('@/assets/images/ttekpow-logo@1x.png')",
+      "img": "require('@/images/home/trekpow-banner@1x.jpg')",
+      "textButton": "EXPLORE",
+      "textTop": ["BE", "YOUR", "TREK", "PAL"],
+      "textBottom": "TrekPow focuses on safety, achieves in efficiency, serves for the vast global automotive market. TrekPow is committed to providing the most comprehensive service on automotive electronics technology and becoming the best companion on the road for our customers across the globe."
+    }
+  ]
+}
